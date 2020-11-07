@@ -1,11 +1,13 @@
 plugins {
     id 'java-library'
+    id 'maven'
 }
 
-group 'org.example'
+group 'pl.kawazprogramista.jdk9.library'
 version '1.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
